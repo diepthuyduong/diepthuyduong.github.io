@@ -12,21 +12,19 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header sticky-top">
     <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="container">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" href="#introduction">Introduction</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
@@ -48,14 +46,41 @@
   </header>
   <div class="container">
     <section class="introduction" id="introduction">
+      <div class="">introduction</div>
       <div style="height: 250px;">
-        introduction
         <h2>I'm Diep Thuy Duong</h2>
+        <a href="" class="">resume</a>
       </div>
     </section>
     <section class="experience" id="experience">
-      <div style="height: 250px;">
-        experience
+      <div class="">Experience</div>
+      <div style="height: 250px;" class="vstack gap-2">
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <p class="">MOMO</p>
+            <p class="">Java Developer</p>
+          </div>
+          <div class="col-4">
+            <p class="">District 7, Ho Chi Minh City</p>
+            <p class="">2021 - Now</p>
+          </div>
+
+        </div>
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <p class="">IVS (Individual System)</p>
+            <p class="">Fullstack Developer</p>
+          </div>
+          <div class="col-4">
+            <p>District 3, Ho Chi Minh City</p>
+            <p>2018 - 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <div class="">
+        project
       </div>
     </section>
     <section class="education" id="education">
@@ -65,17 +90,25 @@
     </section>
     <section class="skill" id="skill">
       <div style="height: 250px;">
-        skill
+        <p class="">Java, Javascript</p>
+        <p class="">Vert.x, Instramart</p>
+        <p class="">Oracle, DB2, PostgreSQL</p>
+        <p class="">Redis</p>
+        <p class="">RabbitMQ, Kafka</p>
+        <p class="">Splunk, k8s, Grafana</p>
+        <p class="">Gitlab, SVN</p>
       </div>
     </section>
     <section class="hobbies" id="hobbies">
       <div style="height: 250px;">
-        hobbies
+        <p class="">Cooking</p>
+        <p class="">Planting trees</p>
       </div>
     </section>
     <section class="contact" id="contact">
       <div style="height: 250px;">
-        contact
+        <p class="">email: diepthuyduong@gmail.com</p>
+        <p class="">skype:</p>
       </div>
     </section>
   </div>
